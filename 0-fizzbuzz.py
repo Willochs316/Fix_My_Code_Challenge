@@ -27,7 +27,7 @@ def fizzbuzz(n):
     print(" ".join(tmp_result))
 
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     if len(sys.argv) <= 1:
         print("Missing number")
         print("Usage: ./0-fizzbuzz.py <number>")
